@@ -1,8 +1,8 @@
 <!--- file: README.md -->
 
-# ansible
+# eclipse
 
-Public examples of some of my simplest Ansible playbooks
+Eclipse deployment automation example
 
 This is how to quickly set up a Java development environment
 based on Fedora, OpenJDK, Git, Maven and Eclipse.
@@ -13,9 +13,9 @@ this playbook will do it for you.
 
 As `root` on the newly installed machine:
 
-    dnf install git ansible
-    git clone https://github.com/sakaal/ansible.git
-    cd ansible
+    dnf install ansible git
+    git clone https://github.com/sakaal/eclipse.git
+    cd eclipse
     cp host_vars/localhost.sample host_vars/localhost
 
 Edit `host_vars/localhost` with your profile details. Then run:
